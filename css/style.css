@@ -1,0 +1,184 @@
+*{
+     margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #000814;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+     text-decoration: none;
+     color: rgb(248, 244, 244);
+     font-weight: bold;
+}
+
+nav ul li a:hover{
+      color: crimson ;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 6%;
+}
+.detel h1{
+    font-size: 50px;
+    color: rgb(252, 251, 251);
+    margin-bottom: 20px;
+}
+span{
+    color: crimson;
+}
+.button{
+        background-color: crimson;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+.detel p{
+    color: rgb(223, 234, 234);
+    line-height: 22px;
+}
+
+.images{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+body {
+    background: #D0D8DB;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0,5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook, .fa-instagram{
+  font-size: 26px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #db0a5a;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #db0a5a;
+  background: #fefefe;
+  border-color: #db0a5a;
+}
+.images:hover .shape {
+       bottom: 40px;
+}
+.images:hover .man {
+       left: 45%;
+}
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #000814;
+}
+.me{
+  margin-left: 8%;
+  margin-top: 6%;
+}
+.me h2 {
+  font-size: 25px;
+    color: rgb(252, 251, 251);
+    margin-bottom: 20px;
+}
+span{
+  color: crimson;
+}
